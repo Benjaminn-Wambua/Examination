@@ -37,8 +37,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
-(1, 'sunnygkp10@gmail.com', '123456'),
-(2, 'admin@admin.com', 'admin');
+(1, 'benjamin@gmail.com', '123456'),
+(2, 'admin@gmail.com', 'admin');
 
 -- --------------------------------------------------------
 
@@ -95,12 +95,11 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `name`, `email`, `subject`, `feedback`, `date`, `time`) VALUES
-('55846be776610', 'testing', 'sunnygkp10@gmail.com', 'testing', 'testing stART', '2015-06-19', '09:22:15pm'),
-('5584ddd0da0ab', 'netcamp', 'sunnygkp10@gmail.com', 'feedback', ';mLBLB', '2015-06-20', '05:28:16am'),
-('558510a8a1234', 'sunnygkp10', 'sunnygkp10@gmail.com', 'dl;dsnklfn', 'fmdsfld fdj', '2015-06-20', '09:05:12am'),
-('5585509097ae2', 'sunny', 'sunnygkp10@gmail.com', 'kcsncsk', 'l.mdsavn', '2015-06-20', '01:37:52pm'),
-('5586ee27af2c9', 'vikas', 'vikas@gmail.com', 'trial feedback', 'triaal feedbak', '2015-06-21', '07:02:31pm'),
-('5589858b6c43b', 'nik', 'nik1@gmail.com', 'good', 'good site', '2015-06-23', '06:12:59pm');
+('CT203/0015/17', 'Benjamin Wambua ', 'benjaminwa@gmail.com', 'Testing', 'Testing start', '2020-06-19', '09:22:15pm'),
+('CT203/0016/17', 'Victor Munene', 'victor10@gmail.com', 'feedback', ';mLBLB', '2020-07-20', '07:28:16am'),
+('CT203/0008/17', 'caciah', 'caciah134@gmail.com', 'Trying', 'Trying Started', '2020-07-22', '10:05:12am'),
+('CT203/0021/17', 'sheila Jerotich', 'sheilaje@yahoo.com', 'Checking', 'Successfull', '2020-08-20', '01:37:52pm'),
+('CT203/0013/17', 'Alex kamau', 'kamah@gmail.com', 'good', 'good site', '2020-08-25', '14:12:59pm');
 
 -- --------------------------------------------------------
 
@@ -123,14 +122,11 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`email`, `eid`, `score`, `level`, `sahi`, `wrong`, `date`) VALUES
-('sunnygkp10@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 09:31:26'),
-('sunnygkp10@gmail.com', '558920ff906b8', 4, 2, 2, 0, '2015-06-23 13:32:09'),
-('avantika420@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2015-06-23 14:33:04'),
-('avantika420@gmail.com', '5589222f16b93', 4, 2, 2, 0, '2015-06-23 14:49:39'),
-('sunnygkp10@gmail.com', '5589741f9ed52', 4, 5, 3, 2, '2015-06-23 15:07:16'),
-('mi5@hollywood.com', '5589222f16b93', 4, 2, 2, 0, '2015-06-23 15:12:56'),
-('nik1@gmail.com', '558921841f1ec', 1, 2, 1, 1, '2015-06-23 16:11:50'),
-('sunnygkp10@gmail.com', '5589222f16b93', 1, 2, 1, 1, '2015-06-24 03:22:38');
+('benjaminwa@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2020-06-23 09:31:26'),
+('victor10@gmail.com', '558920ff906b8', 4, 2, 2, 0, '2020-06-23 13:32:09'),
+('caciah134@gmail.com', '558921841f1ec', 4, 2, 2, 0, '2020-06-23 14:33:04'),
+('sheilaje@yahoo.com', '5589222f16b93', 4, 2, 2, 0, '2020-06-23 14:49:39'),
+('kamah@gmail.com', '5589222f16b93', 1, 2, 1, 1, '2020-06-23 03:22:38');
 
 -- --------------------------------------------------------
 
@@ -280,12 +276,12 @@ CREATE TABLE `quiz` (
 --
 
 INSERT INTO `quiz` (`eid`, `title`, `sahi`, `wrong`, `total`, `time`, `intro`, `tag`, `date`) VALUES
-('558920ff906b8', 'Linux : File Managment', 2, 1, 2, 5, '', 'linux', '2015-06-23 09:03:59'),
-('558921841f1ec', 'Php Coding', 2, 1, 2, 5, '', 'PHP', '2015-06-23 09:06:12'),
-('5589222f16b93', 'C++ Coding', 2, 1, 2, 5, '', 'c++', '2015-06-23 09:09:03'),
-('558922ec03021', 'Networking', 2, 1, 2, 5, '', 'networking', '2015-06-23 09:12:12'),
-('55897338a6659', 'Linux:startup', 2, 1, 5, 10, '', 'linux', '2015-06-23 14:54:48'),
-('5589741f9ed52', 'Linux :vi Editor', 2, 1, 5, 10, '', 'linux', '2015-06-23 14:58:39');
+('558920ff906b8', 'Linux : File Managment', 2, 1, 2, 5, '', 'linux', '2020-06-23 09:03:59'),
+('558921841f1ec', 'Php Coding', 2, 1, 2, 5, '', 'PHP', '2020-07-26 09:06:12'),
+('5589222f16b93', 'C++ Coding', 2, 1, 2, 5, '', 'c++', '2020-07-26 09:09:03'),
+('558922ec03021', 'Networking', 2, 1, 2, 5, '', 'networking', '220-07-26 09:12:12'),
+('55897338a6659', 'Linux:startup', 2, 1, 5, 10, '', 'linux', '2020-07-26 14:54:48'),
+('5589741f9ed52', 'Linux :vi Editor', 2, 1, 5, 10, '', 'linux', '2020-07-26 14:58:39');
 
 -- --------------------------------------------------------
 
@@ -304,10 +300,13 @@ CREATE TABLE `rank` (
 --
 
 INSERT INTO `rank` (`email`, `score`, `time`) VALUES
-('sunnygkp10@gmail.com', 9, '2015-06-24 03:22:38'),
-('avantika420@gmail.com', 8, '2015-06-23 14:49:39'),
-('mi5@hollywood.com', 4, '2015-06-23 15:12:56'),
-('nik1@gmail.com', 1, '2015-06-23 16:11:50');
+('sunnygkp10@gmail.com', 9, '2020-08-24 03:22:38'),
+('caciah134@gmail.com', 8, '2020-08-23 14:49:39'),
+('sheilaje@yahoo.com', 4, '2020-08-23 15:12:56'),
+('victor10@gmail.com', 1, '2020-08-23 16:11:50'),
+('kamah@gmail.com', 1, '2020-08-23 16:11:50');
+
+
 
 -- --------------------------------------------------------
 
@@ -329,15 +328,15 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`name`, `gender`, `college`, `email`, `mob`, `password`) VALUES
-('Avantika', 'F', 'KNIT sultanpur', 'avantika420@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
-('Mark Zukarburg', 'M', 'Stanford', 'ceo@facebook.com', 987654321, 'e10adc3949ba59abbe56e057f20f883e'),
-('Komal', 'F', 'KNIT sultanpur', 'komalpd2011@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
-('Tom Cruze', 'M', 'Hollywood', 'mi5@hollywood.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
-('Netcamp', 'M', 'KNIT sultanpur', 'netcamp@gmail.com', 987654321, 'e10adc3949ba59abbe56e057f20f883e'),
-('Nikunj', 'M', 'XYZ', 'nik1@gmail.com', 987, '202cb962ac59075b964b07152d234b70'),
-('Sunny', 'M', 'KNIT sultanpur', 'sunnygkp10@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
-('User', 'M', 'cimt', 'user@user.com', 11, 'e10adc3949ba59abbe56e057f20f883e'),
-('Vikash', 'M', 'KNIT sultanpur@gmail.com', 'vikash@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e');
+('Sheila Jerotich', 'F', 'Meru University of Science and Technology', 'sheilajero@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
+('Benjamin Wambua', 'M', 'Kenyatta University', 'benjamin@facebook.com', 987654321, 'e10adc3949ba59abbe56e057f20f883e'),
+('caciah caciah', 'F', 'Dedan Kimanthi', 'agcaciah1@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
+('Alex Kamau', 'M', 'Meru University of Science and Technology', 'kamaaahha@yahoo.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
+('Ruth Karanja', 'F', 'University Of Nairobi', 'karanjaruth@gmail.com', 987654321, 'e10adc3949ba59abbe56e057f20f883e'),
+('Viki', 'M', 'Strathmore University', 'vikie@gmail.com', 987, '202cb962ac59075b964b07152d234b70'),
+('Lilian Kiperu', 'F', 'Kenyatta University', 'kiperu10@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e'),
+('Borniface Karanja', 'M', 'Murang'a University', 'karanbenin@yahoo.com', 11, 'e10adc3949ba59abbe56e057f20f883e'),
+('Victor Munene', 'M', 'Meru University of science & Technology', 'vikash@gmail.com', 7785068889, 'e10adc3949ba59abbe56e057f20f883e');
 
 --
 -- Indexes for dumped tables
